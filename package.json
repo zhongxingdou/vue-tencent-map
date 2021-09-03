@@ -16,10 +16,8 @@
   "license": "MIT",
   "main": "lib/main.js",
   "repository": {
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zhongxingdou/vue-tencent-map.git"
-    }
+    "type": "git",
+    "url": "https://github.com/zhongxingdou/vue-tencent-map.git"
   },
   "scripts": {
     "dev": "vite",
