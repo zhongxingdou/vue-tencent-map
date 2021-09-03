@@ -1,0 +1,39 @@
+{
+  "name": "vue-tencent-map",
+  "version": "1.0.0",
+  "description": "腾讯地图Vue版，可用于手机端和PC端",
+  "keywords": [
+    "Vue",
+    "qqmap",
+    "tencentmap",
+    "QQ地图",
+    "腾讯地图"
+  ],
+  "author": {
+    "name": "zhongxingdou",
+    "email": "zhongxingdou@gmail.com"
+  },
+  "license": "MIT",
+  "main": "lib/main.js",
+  "repository": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zhongxingdou/vue-tencent-map.git"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.5",
+    "sass": "^1.32.12",
+    "vite": "^2.0.0-beta.50",
+    "vite-plugin-vue2": "^1.2.0"
+  }
+}
