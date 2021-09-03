@@ -1,6 +1,6 @@
 {
   "name": "vue-tencent-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "腾讯地图Vue版，可用于手机端和PC端",
   "keywords": [
     "Vue",
