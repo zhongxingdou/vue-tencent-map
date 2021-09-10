@@ -105,7 +105,7 @@ export default {
     openLocation(scale, infoUrl = '') {
       const { latitude, longitude, zoom, name, address } = this.$props
       const wx = window.wx
-      ws && wx.openLocation({
+      wx && wx.openLocation({
         latitude, // 纬度，浮点数，范围为90 ~ -90
         longitude, // 经度，浮点数，范围为180 ~ -180。
         name, // 位置名
