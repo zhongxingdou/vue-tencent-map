@@ -12,7 +12,7 @@ export default {
   build: {
     lib: {
       entry: path.resolve(__dirname, pkg.main),
-      name: pkg.name,
+      name: 'TencentMap'
     },
     rollupOptions: {
       // 请确保外部化那些你的库中不需要的依赖
